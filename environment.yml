@@ -1,0 +1,7 @@
+name: clima_api
+channels:
+  - defaults
+dependencies:
+  - fastapi
+  - requests
+prefix: /home/johnny/miniconda3/envs/clima_api

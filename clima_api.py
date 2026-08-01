@@ -24,5 +24,3 @@ def temperatura_cidade(nome_cidade: str):
     weather_data = weather_response.json()
 
     return weather_data["current_weather"]["temperature"]
-
-print(temperatura_cidade("Curitiba"))
